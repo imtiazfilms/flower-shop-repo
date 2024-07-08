@@ -165,3 +165,32 @@
     text-decoration: underline;
     padding-top: 24px;
 }
+
+/* delivery-container */
+
+.delivery-container {
+    width: 1440px;
+    height: 320px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 128px;
+    margin-bottom: 128px;
+    
+}
+.delivery-content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 86px;
+}
+.delivery-content p{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+.delivery-content img {
+    padding-bottom: 28px;
+}
